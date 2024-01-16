@@ -1,0 +1,149 @@
+/* styles-doctor.css */
+
+.doctor-dashboard {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .logo-container-doctor img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 8px;
+  }
+  
+  
+  .header-doctor {
+    border-style: solid;
+    border-color: #ccc;
+    width: 100%;
+    height: 18%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+  
+  .logo-container-doctor img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 8px;
+  }
+  
+  .user-info-doctor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info-doctor span {
+    margin-right: 10px;
+  }
+  
+  .doctor-dashboard button[type="button"],
+  .doctor-dashboard button {
+    display: inline-block;
+    padding: 12px;
+    background-color: #446bf7;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .doctor-dashboard button[type="button"]:hover,
+  .doctor-dashboard button:hover {
+    background-color: #ffffff;
+    color: #446bf7;
+    border: 1px solid #446bf7;
+    transform: scale(1.1);
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 50px; /* Ajustado para compensar la altura del header */
+    z-index: 1; /* Asegura que el contenido esté detrás del header */
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .recipe-section,
+  .medical-history-section,
+  .generate-prescription-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .generate-prescription-section:hover,
+  .medical-history-section:hover,
+  .generate-prescription-section:hover {
+    transform: scale(1.02);
+  }
+  
+
+  .medical-history-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .medical-history-table  th,
+  .medical-history-table  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para la tarjeta de revisar recetas */
+.review-prescription-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .review-prescription-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .review-prescription-card h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .review-prescription-card p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .review-prescription-card button {
+    background-color: #446bf7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .review-prescription-card button:hover {
+    background-color: #334ca5;
+  }
+  
+
+ 
